@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Ravichander Reddy Goli'});
+  res.render('index', { title: 'Welcome 2 Northwest Missouri State University'});
 });
 
 module.exports = router;
